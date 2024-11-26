@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header id="header" className={`${isDark ? 'dark' : ''}`}>
-      <h2>Where in the world?</h2>
+      <h2>Where in the worlds?</h2>
       <div id="dark-theme" onClick={() => {
         setIsDark(!isDark)
         localStorage.setItem('isDarkMode', !isDark)
